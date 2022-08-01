@@ -1,0 +1,1074 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8357b9b7917ab594bb122838cd296b46, type: 3}
+  m_Name: testscore
+  m_EditorClassIdentifier: 
+  AudioOffset: 0
+  AudioLoopStartSample: 84706
+  AudioLoopEndSample: 4658824
+  SamplingFreq: 48000
+  ScoreObjectsList:
+  - rid: 3997461469587308989
+  - rid: 3997461469587308990
+  - rid: 3997461469587308991
+  - rid: 3997461469587308992
+  - rid: 3997461469587308993
+  - rid: 3997461469587308994
+  - rid: 3997461469587308995
+  - rid: 3997461469587308996
+  - rid: 3997461469587308997
+  - rid: 3997461469587308998
+  - rid: 3997461469587308999
+  - rid: 3997461469587309000
+  - rid: 3997461469587309001
+  - rid: 3997461469587309002
+  - rid: 3997461469587309003
+  - rid: 3997461469587309004
+  - rid: 3997461469587309005
+  - rid: 3997461469587309006
+  - rid: 3997461469587309007
+  - rid: 3997461469587309008
+  - rid: 3997461469587309009
+  - rid: 3997461469587309010
+  - rid: 3997461469587309011
+  - rid: 3997461469587309012
+  - rid: 3997461469587309013
+  - rid: 3997461469587309014
+  - rid: 3997461469587309015
+  - rid: 3997461469587309016
+  - rid: 3997461469587309017
+  - rid: 3997461469587309018
+  - rid: 3997461469587309019
+  - rid: 3997461469587309020
+  - rid: 3997461469587309021
+  - rid: 3997461469587309022
+  - rid: 3997461469587309023
+  - rid: 3997461469587309024
+  - rid: 3997461469587309025
+  - rid: 3997461469587309026
+  - rid: 3997461469587309027
+  - rid: 3997461469587309028
+  - rid: 3997461469587309029
+  - rid: 3997461469587309030
+  - rid: 3997461469587309031
+  - rid: 3997461469587309032
+  - rid: 3997461469587309033
+  - rid: 3997461469587309034
+  - rid: 3997461469587309035
+  - rid: 3997461469587309036
+  - rid: 3997461469587309037
+  - rid: 3997461469587309038
+  - rid: 3997461469587309039
+  - rid: 3997461469587309040
+  - rid: 3997461469587309041
+  - rid: 3997461469587309042
+  - rid: 3997461469587309043
+  - rid: 3997461469587309044
+  - rid: 3997461469587309045
+  - rid: 3997461469587309046
+  - rid: 3997461469587309047
+  - rid: 3997461469587309048
+  - rid: 3997461469587309049
+  - rid: 3997461469587309050
+  - rid: 3997461469587309051
+  - rid: 3997461469587309052
+  - rid: 3997461469587309053
+  - rid: 3997461469587309054
+  - rid: 3997461469587309055
+  - rid: 3997461469587309056
+  - rid: 3997461469587309057
+  - rid: 3997461469587309058
+  - rid: 3997461469587309059
+  - rid: 3997461469587309060
+  - rid: 3997461469587309061
+  - rid: 3997461469587309062
+  - rid: 3997461469587309063
+  - rid: 3997461469587309064
+  - rid: 3997461469587309065
+  - rid: 3997461469587309066
+  - rid: 3997461469587309067
+  - rid: 3997461469587309068
+  - rid: 3997461469587309069
+  - rid: 3997461469587309070
+  - rid: 3997461469587309071
+  - rid: 3997461469587309072
+  - rid: 3997461469587309073
+  - rid: 3997461469587309074
+  - rid: 3997461469587309075
+  - rid: 3997461469587309076
+  - rid: 3997461469587309077
+  - rid: 3997461469587309078
+  - rid: 3997461469587309079
+  - rid: 3997461469587309080
+  - rid: 3997461469587309081
+  - rid: 3997461469587309082
+  - rid: 3997461469587309083
+  - rid: 3997461469587309084
+  - rid: 3997461469587309085
+  - rid: 3997461469587309086
+  - rid: 3997461469587309087
+  - rid: 3997461469587309088
+  - rid: 3997461469587309089
+  - rid: 3997461469587309090
+  - rid: 3997461469587309091
+  - rid: 3997461469587309092
+  - rid: 3997461469587309093
+  - rid: 3997461469587309094
+  - rid: 3997461469587309095
+  - rid: 3997461469587309096
+  - rid: 3997461469587309097
+  - rid: 3997461469587309098
+  - rid: 3997461469587309099
+  - rid: 3997461469587309100
+  - rid: 3997461469587309101
+  - rid: 3997461469587309102
+  - rid: 3997461469587309103
+  - rid: 3997461469587309104
+  - rid: 3997461469587309105
+  - rid: 3997461469587309106
+  - rid: 3997461469587309107
+  - rid: 3997461469587309108
+  - rid: 3997461469587309109
+  - rid: 3997461469587309110
+  - rid: 3997461469587309111
+  - rid: 3997461469587309112
+  - rid: 3997461469587309113
+  - rid: 3997461469587309114
+  - rid: 3997461469587309115
+  - rid: 3997461469587309116
+  - rid: 3997461469587309117
+  - rid: 3997461469587309118
+  - rid: 3997461469587309119
+  - rid: 3997461469587309120
+  - rid: 3997461469587309121
+  - rid: 3997461469587309122
+  - rid: 3997461469587309123
+  - rid: 3997461469587309124
+  - rid: 3997461469587309125
+  - rid: 3997461469587309126
+  - rid: 3997461469587309127
+  - rid: 3997461469587309128
+  - rid: 3997461469587309129
+  - rid: 3997461469587309130
+  - rid: 3997461469587309131
+  - rid: 3997461469587309132
+  - rid: 3997461469587309133
+  - rid: 3997461469587309134
+  - rid: 3997461469587309135
+  references:
+    version: 2
+    RefIds:
+    - rid: 3997461469587308989
+      type: {class: SetSpeed, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 0
+        BPM: 100
+        LPB: 4
+    - rid: 3997461469587308990
+      type: {class: TurnChange, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 0
+        turntype: 0
+    - rid: 3997461469587308991
+      type: {class: TurnChange, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 14118
+        turntype: 1
+    - rid: 3997461469587308992
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 16103
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587308993
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 16324
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587308994
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 16654
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587308995
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 16985
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587308996
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 17206
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587308997
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 17426
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587308998
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 17647
+        endtiming: 18088
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587308999
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 18309
+        endtiming: 19413
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309000
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 19632
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309001
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 19853
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309002
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 20184
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309003
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 20515
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309004
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 20735
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309005
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 20956
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309006
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 21176
+        endtiming: 21397
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309007
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 21838
+        endtiming: 22721
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309008
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 22941
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309009
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 23272
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309010
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 23603
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309011
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 23824
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309012
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 24706
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309013
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 25368
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309014
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 26029
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309015
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 26029
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309016
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 26360
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309017
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 26471
+        endtiming: 27352
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309018
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 27354
+        endtiming: 28234
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309019
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 28236
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309020
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 28456
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309021
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 28566
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309022
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 28787
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309023
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 29007
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309024
+      type: {class: TurnChange, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 30000
+        turntype: 0
+    - rid: 3997461469587309025
+      type: {class: TurnChange, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 40588
+        turntype: 1
+    - rid: 3997461469587309026
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 44338
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309027
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 44449
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309028
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 44559
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309029
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 44669
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309030
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 44890
+        endtiming: 45661
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309031
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 45221
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309032
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 45441
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309033
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 45662
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309034
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 45882
+        endtiming: 46213
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309035
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 45882
+        endtiming: 46213
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309036
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 46544
+        endtiming: 46984
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309037
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 46985
+        endtiming: 47205
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309038
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 47206
+        endtiming: 47646
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309039
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 47868
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309040
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 47978
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309041
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 48088
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309042
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 48199
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309043
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 48419
+        endtiming: 49411
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309044
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 48750
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309045
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 48971
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309046
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 49191
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309047
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 49412
+        endtiming: 49632
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309048
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 49743
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309049
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 50074
+        endtiming: 50956
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309050
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 51176
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309051
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 51397
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309052
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 51507
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309053
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 51728
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309054
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 51838
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309055
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 52509
+        endtiming: 52721
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309056
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 52279
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309057
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 52500
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309058
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 52721
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309059
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 52941
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309060
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 53162
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309061
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 53272
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309062
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 53493
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309063
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 53603
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309064
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 53824
+        endtiming: 54265
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309065
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 54485
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309066
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 54596
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309067
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 54706
+        endtiming: 55036
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309068
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 55037
+        endtiming: 55367
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309069
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 55368
+        endtiming: 55587
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309070
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 55588
+        endtiming: 55918
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309071
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 55919
+        endtiming: 56249
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309072
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 56251
+        endtiming: 56470
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309073
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 56471
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309074
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 56691
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309075
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 56801
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309076
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 57022
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309077
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 57243
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309078
+      type: {class: TurnChange, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 58225
+        turntype: 0
+    - rid: 3997461469587309079
+      type: {class: TurnChange, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 70588
+        turntype: 1
+    - rid: 3997461469587309080
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 71912
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309081
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 72132
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309082
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 72353
+        endtiming: 75441
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309083
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 72684
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309084
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 73015
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309085
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 73235
+        endtiming: 73676
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309086
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 73897
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309087
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 74118
+        endtiming: 75441
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309088
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 75882
+        endtiming: 78970
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309089
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 76213
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309090
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 76544
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309091
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 76765
+        endtiming: 77206
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309092
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 77426
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309093
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 79412
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309094
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 79743
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309095
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 80074
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309096
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 80294
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309097
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 80515
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309098
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 80735
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309099
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 80956
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309100
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 81176
+        endtiming: 82058
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309101
+      type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 82059
+        endtiming: 82499
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309102
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 82721
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309103
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 82941
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309104
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 83051
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309105
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 83162
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309106
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 83272
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309107
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 83382
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309108
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 83493
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309109
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 83603
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309110
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 83713
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309111
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 83824
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309112
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 83934
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309113
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 84044
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309114
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 84154
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309115
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 84265
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309116
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 84375
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309117
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 84485
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309118
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 84596
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309119
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 84706
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309120
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 84816
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309121
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 84926
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309122
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 85037
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309123
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 85147
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309124
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 85257
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309125
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 85368
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309126
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 85478
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309127
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 85588
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309128
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 85699
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309129
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 85809
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309130
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 85919
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309131
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 86029
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309132
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 86140
+        lane: 1
+        actionType: 0
+    - rid: 3997461469587309133
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 86250
+        lane: 2
+        actionType: 0
+    - rid: 3997461469587309134
+      type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 86360
+        lane: 0
+        actionType: 0
+    - rid: 3997461469587309135
+      type: {class: TurnChange, ns: Scores, asm: Assembly-CSharp}
+      data:
+        timing: 97054
+        turntype: 0
