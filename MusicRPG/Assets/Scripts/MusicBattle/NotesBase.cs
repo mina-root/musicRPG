@@ -35,14 +35,9 @@ public abstract class NotesBase : MonoBehaviour
     void Update()
     {
         Move();
-        //以下テスト　判定によって色を変える
-        int deltatime= soundPlayer.getPlaytime()-timing;
-            if(System.Math.Abs(deltatime)<battleSettings.justRenge){
-               
-                renderer.material.color = Color.green;
-            }else if(System.Math.Abs(deltatime)<battleSettings.goodRenge){
+        //ノーツ種類によって色を変える
+            if(notesType==1){
                 renderer.material.color = Color.magenta;
-
             }else{
                 renderer.material.color = Color.cyan;
             }

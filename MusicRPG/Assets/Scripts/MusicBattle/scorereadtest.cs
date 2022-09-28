@@ -30,13 +30,4 @@ public class scorereadtest : MonoBehaviour
         string jsonString = JsonUtility.ToJson(scoreData, true);
         
     }
-
-
-    
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -15,7 +15,6 @@ namespace Scores{
         [SerializeField]JudgeNotifer judgeNotifer;
         [SerializeField]Notes.TapNotes TapNotesPrefab ;//tapnotes
         [SerializeField]Notes.HoldNotes HoldNotesPrefab ;//Holdnotes
-        // Start is called before the first frame update
         TurnChangeNotifer turnChangeNotifer;
         Scores.ScoreData scoreData;
         List<Notes.NotesBase> notesInstanceList = new List<Notes.NotesBase>();

@@ -44,7 +44,7 @@ namespace Player{
              
             for(int i=0;i<input.Length;i++){
                 if(input[i]>0){
-                    Debug.Log(Scores.ScoreLogic.getRoopFixedTiming(scoreData,soundPlayer.getPlaytime()));
+                    //Debug.Log(Scores.ScoreLogic.getRoopFixedTiming(scoreData,soundPlayer.getPlaytime()));
                     foreach (Scores.Notes.NotesBase notes in notesInstancesList){
                         if(notes.GetType()==typeof(Scores.Notes.TapNotes)){
                             if(notes.timing>Scores.ScoreLogic.getRoopFixedTiming(scoreData,soundPlayer.getPlaytime())-settings.goodRenge&&tmg>notes.timing&&notes.laneId==i){

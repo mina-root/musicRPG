@@ -6,6 +6,8 @@ using System;
 namespace Scores{
     public class TurnChangeNotifer : MonoBehaviour
     {
+        //ターン切り替えイベント発行する
+        //
         [SerializeField] SoundPlayer soundPlayer;
         [SerializeField] Scores.ScoreUtility scoreUtility;
         Subject<int> OnTurnChengeSubject = new Subject<int>();

@@ -250,7 +250,7 @@ MonoBehaviour:
       data:
         timing: 20184
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309003
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -275,7 +275,7 @@ MonoBehaviour:
         timing: 21176
         endtiming: 21397
         lane: 1
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309007
       type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -294,7 +294,7 @@ MonoBehaviour:
       data:
         timing: 23272
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309010
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -306,7 +306,7 @@ MonoBehaviour:
       data:
         timing: 23824
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309012
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -318,7 +318,7 @@ MonoBehaviour:
       data:
         timing: 25368
         lane: 0
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309014
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -421,7 +421,7 @@ MonoBehaviour:
         timing: 44890
         endtiming: 45661
         lane: 0
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309031
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -446,7 +446,7 @@ MonoBehaviour:
         timing: 45882
         endtiming: 46213
         lane: 0
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309035
       type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -467,7 +467,7 @@ MonoBehaviour:
         timing: 46985
         endtiming: 47205
         lane: 0
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309038
       type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -604,13 +604,13 @@ MonoBehaviour:
       data:
         timing: 52941
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309060
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
         timing: 53162
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309061
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -695,13 +695,13 @@ MonoBehaviour:
       data:
         timing: 56471
         lane: 0
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309074
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
         timing: 56691
         lane: 1
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309075
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -713,7 +713,7 @@ MonoBehaviour:
       data:
         timing: 57022
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309077
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -735,7 +735,7 @@ MonoBehaviour:
       data:
         timing: 71912
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309081
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -748,7 +748,7 @@ MonoBehaviour:
         timing: 72353
         endtiming: 75441
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309083
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -773,7 +773,7 @@ MonoBehaviour:
       data:
         timing: 73897
         lane: 1
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309087
       type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -836,7 +836,7 @@ MonoBehaviour:
       data:
         timing: 80294
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309097
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -854,27 +854,27 @@ MonoBehaviour:
       data:
         timing: 80956
         lane: 1
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309100
       type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
       data:
         timing: 81176
         endtiming: 82058
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309101
       type: {class: Hold, ns: Scores, asm: Assembly-CSharp}
       data:
         timing: 82059
         endtiming: 82499
         lane: 1
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309102
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
         timing: 82721
         lane: 0
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309103
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -886,13 +886,13 @@ MonoBehaviour:
       data:
         timing: 83051
         lane: 1
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309105
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
         timing: 83162
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309106
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -922,7 +922,7 @@ MonoBehaviour:
       data:
         timing: 83713
         lane: 1
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309111
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -946,7 +946,7 @@ MonoBehaviour:
       data:
         timing: 84154
         lane: 0
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309115
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
@@ -1024,7 +1024,7 @@ MonoBehaviour:
       data:
         timing: 85588
         lane: 2
-        actionType: 0
+        actionType: 1
     - rid: 3997461469587309128
       type: {class: Tap, ns: Scores, asm: Assembly-CSharp}
       data:
