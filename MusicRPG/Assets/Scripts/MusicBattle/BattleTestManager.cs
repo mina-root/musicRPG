@@ -25,20 +25,25 @@ public class BattleTestManager : MonoBehaviour
         partychara_0.name="PartyCharactor0";
         BattleCharactor.PartyCharactor PC0=partychara_0.GetComponent<BattleCharactor.PartyCharactor>();
         PC0.charactor_name="Player0";
-        PC0.MaxHP=3500;
-        PC0.HP=3500;
+        PC0.charactor_num=0;
+        PC0.MaxHP=1500;
+        PC0.HP=1500;
         PC0.atk=16;
-        PC0.def=3;
+        PC0.def=1;
+        PC0.mgk=8;
+
         PC0.skill[0]= Resources.Load($"Data/Skills/PartyCharactorSkills/たたかう") as Skills.PartyCharactorSkills;
 
         GameObject partychara_1 = GameObject.Instantiate(partyCharactorPrefab,new Vector3(0.1f,0,0),Quaternion.identity);
         partychara_1.name="PartyCharactor1";
         BattleCharactor.PartyCharactor PC1=partychara_1.GetComponent<BattleCharactor.PartyCharactor>();
         PC1.charactor_name="Player1";
-        PC1.MaxHP=2000;
-        PC1.HP=1000;
+        PC1.charactor_num=1;
+        PC1.MaxHP=1200;
+        PC1.HP=1200;
         PC1.atk=22;
         PC1.def=0;
+        PC1.mgk=9;
         PC1.skill[0]= Resources.Load($"Data/Skills/PartyCharactorSkills/たたかう") as Skills.PartyCharactorSkills;
         PC1.skill[1]= Resources.Load($"Data/Skills/PartyCharactorSkills/つよいこうげき") as Skills.PartyCharactorSkills;
 
@@ -46,11 +51,14 @@ public class BattleTestManager : MonoBehaviour
         partychara_2.name="PartyCharactor2";
         BattleCharactor.PartyCharactor PC2=partychara_2.GetComponent<BattleCharactor.PartyCharactor>();
         PC2.charactor_name="Player2";
-        PC2.MaxHP=1750;
-        PC2.HP=1750;
+        PC2.charactor_num=2;
+        PC2.MaxHP=900;
+        PC2.HP=900;
         PC2.atk=12;
         PC2.def=1;
+        PC2.mgk=15;
         PC2.skill[0]= Resources.Load($"Data/Skills/PartyCharactorSkills/たたかう") as Skills.PartyCharactorSkills;
+        PC2.skill[1]= Resources.Load($"Data/Skills/PartyCharactorSkills/かいふく") as Skills.PartyCharactorSkills;
     }
 
     void turnChenger(int turntype){

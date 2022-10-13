@@ -1,0 +1,14 @@
+Font: Kikai Chokoku JIS  Style: Medium
+Point Size: 32   SP/PD Ratio: 15.6%
+
+Characters included: 175/177
+Missing characters: 2
+Excluded characters: 0
+
+Characters missing from font file:
+----------------------------------------
+ID: 25915	Hex: 653B	Char [攻]
+ID: 25731	Hex: 6483	Char [撃]
+
+Characters excluded from packing:
+----------------------------------------

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillName: "\u5F37\u3044\u305F\u305F\u304B\u3046"
   skillType: 0
-  SPCost: 8
+  SPCost: 15
   rate: 140
   fixedValue: 0
-  ComboAccumlation_Just: 10
+  ComboAccumlation_Just: 12
   ComboAccumlation_Good: 4
   ComboAccumlation_Miss: 1

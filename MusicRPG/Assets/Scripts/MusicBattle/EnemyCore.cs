@@ -45,8 +45,8 @@ int[] ComboFix = {0,0,0};
         //アクション実行を登録
         GameObject.Find("BattleManager").GetComponent<BattleObjects.ActionTargetModifier>().ActionEventObserbable.Subscribe(
             (BattleObjects.ActionEvent act)=> {
-                int c=1;
-                    if(act.judge==0)c=10;
+                int c=10;
+                    if(act.judge==0)c=1;
                     else if(act.judge==1)c=4;
                     if(act.notesType==0){
                         DoAction(act.target,c);

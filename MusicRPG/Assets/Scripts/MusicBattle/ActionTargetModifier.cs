@@ -72,7 +72,7 @@ public class ActionTargetModifier : MonoBehaviour
         }
 
         //ひとまずデバッグログで対象キャラクター番号を出力しておく
-        Debug.Log("Target : "+target);
+        Debug.Log("Target : "+target+", Actiontype : "+judgement.notesType);
         //以下に実際に攻撃などのアクションを起こす処理を追加する予定　が、
         //　①ここから直接キャラクターの各種アクションを実行する
         //　②イベント発行を通して実行する（各プレイヤーがすべてのイベントを見て自分に関係のあるやつだけ実行する）

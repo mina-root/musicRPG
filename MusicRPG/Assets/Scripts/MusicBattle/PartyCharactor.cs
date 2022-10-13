@@ -15,8 +15,8 @@ public class PartyCharactor : MonoBehaviour,Damage.IDamageApplicatable
     public int charactor_num=0;
 
     //基本ステータスなど
-    public int MaxHP=100;//最大HP 初期値は適当
-    public int HP=100;//現在HP
+    public int MaxHP=1000;//最大HP 初期値は適当
+    public int HP=1000;//現在HP
     public int atk=20;//攻撃力
     public int def=10;
     public int mgk=5;
@@ -27,6 +27,7 @@ public class PartyCharactor : MonoBehaviour,Damage.IDamageApplicatable
 
     //戦闘中に変動する隠し系パラメータ    
         public int ComboFix{get;set;}=0;//コンボ補正
+        public int[] ComboFixHeal=new int[3]; 
         public bool is_active{get;set;}=true;//行動可能か、ターゲットになるかのフラグ　
 
     //各種パッシブスキル系フラグ
@@ -47,18 +48,36 @@ public class PartyCharactor : MonoBehaviour,Damage.IDamageApplicatable
     //パーティ全体のデータへの参照
     BattleObjects.PartyStatus partyStatus;
 
+    //パーティキャラクターそれぞれへの参照
+    PartyCharactor[] partyCharactors;
+    GameObject UIDrawer;
+
     //ダメージを受けるメソッド
     public void  ApplyDamage(Damage.Damage damage){
         int BaseDamage=Damage.DamageLogic.BaseDamage(damage.atk,def,damage.rate,damage.fixedValue);
         int totalDamage=(int)(BaseDamage*Damage.DamageLogic.ComboRate(ComboFix,damage.ComboAccumlation));
         HP-=totalDamage;
         ComboFix+=damage.ComboAccumlation;
+        //ダメージポップアップを表示
+        UIDrawer.GetComponent<UIs.DamageDrawer>().DamagePop(charactor_num,totalDamage,true);
+    }
+
+    //回復を受けるメソッド
+    public void ApplyHeal(Damage.Heal heal){
+        int BaseHeal = Damage.DamageLogic.BaseDamage(heal.mgk,0,heal.rate,heal.fixedValue);
+        int totalvalue = (int)(BaseHeal*Damage.DamageLogic.ComboRate(ComboFixHeal[heal.healer],heal.ComboAccumlation));
+        HP+=totalvalue;
+        if(HP>MaxHP)HP=MaxHP;
+        ComboFixHeal[heal.healer]+=heal.ComboAccumlation;
+        //回復ポップアップを表示
+        UIDrawer.GetComponent<UIs.DamageDrawer>().DamagePop(charactor_num,totalvalue,false);
     }
 
     //判定を受けてアクションを実行するメソッド
     void DoAction(int judge){
         //たんま
         //
+        Debug.Log("アクション発生；判定"+judge+" / セットスキルタイプ；"+skill[selectedCommand].skillType);
         int ComboAccumlation=1;
         switch(skill[selectedCommand].skillType){
             case Skills.PartyCharactorSkills.SkillType.attack:
@@ -79,8 +98,24 @@ public class PartyCharactor : MonoBehaviour,Damage.IDamageApplicatable
                 break;
             case Skills.PartyCharactorSkills.SkillType.heal:
             //回復スキルの場合
-            //処理まだ考えてない
+            //処理これから作るぜ～～～～～
 
+            //思ったんだけどこのコンボ補正蓄積の処理スキル種類ごとに分けててええんやろか
+                switch(judge){
+                    case -1://Miss
+                        ComboAccumlation=skill[selectedCommand].ComboAccumlation_Miss;
+                    break;
+                    case 0://just
+                        ComboAccumlation=skill[selectedCommand].ComboAccumlation_Just;
+                        partyStatus.SP+=1;
+                    break;
+                    case 1://Good
+                        ComboAccumlation=skill[selectedCommand].ComboAccumlation_Good;
+                    break;
+                }
+                foreach(PartyCharactor chara in partyCharactors){
+                    chara.ApplyHeal(new Damage.Heal(mgk,skill[selectedCommand].rate,skill[selectedCommand].fixedValue,charactor_num,ComboAccumlation));
+                }
                 break;
             case Skills.PartyCharactorSkills.SkillType.support:
                 break;
@@ -92,6 +127,7 @@ public class PartyCharactor : MonoBehaviour,Damage.IDamageApplicatable
     void EndOfTurn(){
         //コンボ補正を0に戻す
         ComboFix=0;
+        ComboFixHeal= new int[]{0,0,0};
         //HPが0以下の場合、戦闘不能にする
         if(HP<=0){
             HP=0;
@@ -103,7 +139,11 @@ public class PartyCharactor : MonoBehaviour,Damage.IDamageApplicatable
     private void Start() {
         enemy=GameObject.Find("Enemy").GetComponent<BattleCharactor.EnemyCore>();
         partyStatus=GameObject.Find("Party").GetComponent<BattleObjects.PartyStatus>();
-
+        UIDrawer=GameObject.Find("UIDrawer");
+        partyCharactors = new PartyCharactor[3];
+        partyCharactors[0]= GameObject.Find("PartyCharactor0").GetComponent<BattleCharactor.PartyCharactor>();
+        partyCharactors[1]= GameObject.Find("PartyCharactor1").GetComponent<BattleCharactor.PartyCharactor>();
+        partyCharactors[2]= GameObject.Find("PartyCharactor2").GetComponent<BattleCharactor.PartyCharactor>();
         //ターン終了時処理を登録
         GameObject.Find("Scores").GetComponent<Scores.TurnChangeNotifer>().OnTurnChangeObservable.Subscribe(
             (int tt)=>{

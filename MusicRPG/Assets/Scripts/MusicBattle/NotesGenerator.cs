@@ -53,7 +53,7 @@ namespace Scores{
 
                 }
             }
-            Debug.Log(endtime);
+            //Debug.Log(endtime);
             //まとめてノーツを生成
             for(int i=0;i<scoreObjectsList.Count;i++){
                 //Tapを生成する

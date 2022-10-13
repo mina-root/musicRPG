@@ -157,7 +157,7 @@ public class StatusDrawer : MonoBehaviour
         switch(turntype){
             case 0:
                 foreach(RectTransform item in rectTransforms){
-                    item.position+=new Vector3(0,120,0);
+                    item.position+=new Vector3(0,60,0);
                 }
                 for(int i=0;i<StatusParent.Length;i++){
                     StatusParent[i].GetComponent<RectTransform>().DOMove(new Vector3(pivotX+(i)*XInterval,pivotY,0),StatusMoveDuration);
@@ -166,7 +166,7 @@ public class StatusDrawer : MonoBehaviour
             break;
             case 1:
                 foreach(RectTransform item in rectTransforms){
-                    item.position+=new Vector3(0,-120,0);
+                    item.position+=new Vector3(0,-60,0);
                 }
                 for(int i=0;i<StatusParent.Length;i++){
                     StatusParent[i].GetComponent<RectTransform>().DOMove(new Vector3(pivotX+(i)*XInterval,pivotY-120,0),StatusMoveDuration);

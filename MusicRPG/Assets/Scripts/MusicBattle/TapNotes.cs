@@ -12,7 +12,7 @@ namespace Scores.Notes{
             if(!Pressed)return;
             
             int deltatime= Scores.ScoreLogic.getRoopFixedTiming(score,soundPlayer.getPlaytime())-timing;
-            Debug.Log(deltatime);
+            //Debug.Log(deltatime);
             if(System.Math.Abs(deltatime)<battleSettings.justRenge){
                 JudgeNotifer.JudgeNotice(0,laneId,notesType);
                 Destroy( this.gameObject );

@@ -1201,6 +1201,7 @@ GameObject:
   - component: {fileID: 1194159275}
   - component: {fileID: 1194159276}
   - component: {fileID: 1194159277}
+  - component: {fileID: 1194159278}
   m_Layer: 0
   m_Name: UIDrawer
   m_TagString: Untagged
@@ -1236,9 +1237,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UITextPrefab: {fileID: 5741510389202755007, guid: ca4d0813c230a794bbee734bae9ff29e, type: 3}
-  pivotX: 1400
+  pivotX: 1320
   pivotY: 180
-  XInterval: 210
+  XInterval: 225
   commandControl: {fileID: 1955472517}
   StatusMoveDuration: 0.5
 --- !u!114 &1194159277
@@ -1258,6 +1259,20 @@ MonoBehaviour:
   JudgeDrawingPrefab: {fileID: 8249481106993828299, guid: e51b6ac7fadf3024dac1c66cb40ca38d, type: 3}
   maincamera: {fileID: 1341292687}
   canvas: {fileID: 311007805}
+--- !u!114 &1194159278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194159274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a5472f56dd58f41833378cc0fb8646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamagePopPrefab: {fileID: 204253898240686389, guid: 56fa08bc49ff7544497b1cdef8addf24, type: 3}
+  DisplayTime: 1.2
 --- !u!1 &1285234238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,8 +1302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fe6718755808434393dae3e9fa35fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHP: 3000
-  HP: 3000
+  MaxHP: 5000
+  HP: 5000
   atk: 12
   def: 1
 --- !u!4 &1285234240
@@ -1501,7 +1516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -353, y: -171}
+  m_AnchoredPosition: {x: -658, y: -171}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374460217

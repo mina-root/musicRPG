@@ -24,20 +24,20 @@ public class JudgeTest : MonoBehaviour
     void displayJudge(Scores.Judgement judgement){
         switch(judgement.judge){
             case -1:
-                txt.text = "Miss\nCombo:"+combo;
+                txt.text = "Combo:"+combo;
                 combo=0;
-                Debug.Log("Miss");
+                //Debug.Log("Miss");
                 
                 break;
         case 0:
-                txt.text = "Just\nCombo:"+combo;
+                txt.text = "Combo:"+combo;
                 combo+=1;
-                Debug.Log("Just");
+                //Debug.Log("Just");
                 break;
         case 1:
-                txt.text = "Good\nCombo:"+combo;
+                txt.text = "Combo:"+combo;
                 combo+=1;
-                Debug.Log("Good");
+                //Debug.Log("Good");
                 break;
         }
         

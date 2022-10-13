@@ -26,6 +26,18 @@ namespace Damage{
         public Damage(){}
     }
 
+    public class Heal{
+        //回復そのものを表すオブジェクト
+        public int mgk = 0;
+        public int rate = 100;
+        public int fixedValue=0;
+        public int healer = 0;
+        public int ComboAccumlation;
+        public Heal(int at,int ra,int fix,int hler,int combo){
+            mgk=at;rate=ra;fixedValue=fix;healer=hler;ComboAccumlation=combo;
+        }
+    }
+
     public static class DamageLogic{
         //ダメージ関連のロジックをまとめておくクラス
         public static float ComboRate(int ComboAccumlationBase,int ComboAccumlation){
@@ -34,7 +46,7 @@ namespace Damage{
                 for(int i=ComboAccumlationBase;i<ComboAccumlation+ComboAccumlationBase;i++){
                     finalRate+=BaseComboRate(i);
                 }
-            Debug.Log("FinalRate="+finalRate);
+            //Debug.Log("FinalRate="+finalRate);
             return finalRate;
 
         }
@@ -46,7 +58,7 @@ namespace Damage{
         }
         public static int BaseDamage(int atk,int def,int rate,int fixedValue){
             //ダメージ計算式
-            Debug.Log("BaseDamage : "+((atk-def)*rate/100+fixedValue+1).ToString());
+            //Debug.Log("BaseDamage : "+((atk-def)*rate/100+fixedValue+1).ToString());
             return (atk-def)*rate/100+fixedValue+1;
         }
     }
